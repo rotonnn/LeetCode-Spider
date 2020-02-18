@@ -2,12 +2,12 @@
 
  LeetCode爬虫，可以爬取AC题目的 标题、题目内容、最近通过代码
  
-**#spider.py **
+**spider.py**
 
 包含函数 login4cookies ，用于登录并返回登录状态的所有cookies。
 根据提示输入登录所需的用户名和密码。
 
-**#s_spider.py**
+**s_spider.py**
 
 根据提示输入需要爬取题库的url，
 等待爬取完毕，结果将以json形式输出在文件夹下的`data.json`中。
